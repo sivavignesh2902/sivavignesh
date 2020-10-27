@@ -1,0 +1,45 @@
+body{
+	background-color: black;
+	color: white;
+	margin: 3%;
+}
+.forms
+{
+	margin-left: 38%;
+	margin-top: 6%;
+	border: 3px dashed white;
+	margin-right: 37%;
+	padding: 20px;
+	font-size: 30px;
+	width: 300px;
+	
+	
+
+}
+h1
+{
+	text-align: center;
+	margin-top: 10%;
+	animation: blinking 2s linear infinite;
+	color: yellow;
+	font-size: 50px;
+
+
+
+}
+@-webkit-keyframes blinking
+{
+	0%{opacity: 1;
+		color: grey;}
+	25%{opacity: 0.5;
+		color: red;
+		}
+	50%{opacity: 1;
+		color: indigo;}
+	75%{opacity: 0.5;
+		color: pink;
+		}
+	100%{opacity: 1;
+		color: orange;
+		}
+}
